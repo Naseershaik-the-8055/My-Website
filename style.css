@@ -9,6 +9,10 @@ html, body{
 {
       background: #2c3e50;
       padding: 5px;
+      letter-spacing: 0.5px;
+      font-style: oblique;
+      font-weight:bolder;
+        
 }
 .menu ul{
       margin: 0;
@@ -34,7 +38,10 @@ html, body{
       background: #E91E63;
 }
 .menu ul li:hover a{
-      background: #E91E63;
+      background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0,#BA5370,#F4E2D8);
+      height: 40px;
+      width: 190px;
+      border-radius: 50%;
 }
 .section1, .section2, .section3, .section4{
       min-height: 100vh;
